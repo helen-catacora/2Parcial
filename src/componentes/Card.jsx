@@ -4,7 +4,7 @@ import Perfil from './Perfil'
 
 function Card() {
   return (
-    <div>
+    <div className='card'>
         <Portada />
         <Perfil />
     </div>

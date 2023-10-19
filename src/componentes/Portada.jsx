@@ -2,9 +2,9 @@ import React from 'react'
 
 function Portada() {
   return (
-    <div>
+    <section className='Banner'>
         <img src="/Banner _DDD.png" alt="" />
-    </div>
+    </section>
   )
 }
 

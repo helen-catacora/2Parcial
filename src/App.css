@@ -1,42 +1,78 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.card{
+  width: 484px;
+  height: 321px;
+  border-radius: 20px;
+  margin: 10px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.perfil{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 30%, rgba(0, 85, 255, 0.372) 100%);
+  height: 150px;
+  margin: -10px 0 0 0;
+  width: 484px;
+  border-radius: 0 0 20px 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.avatar{
+  margin: -50px 0 0 12px;
+  border: 9px solid #0e0e0e;
+  background-color: linear-gradient(179.45deg, #000000 0.47%, #111214 45.69%, rgba(0, 0, 0, 0) 45.7%);
+  border-radius: 50%;
 }
 
-.card {
-  padding: 2em;
+.nameprofile{
+  position: relative;
+  margin: 20px;
 }
 
-.read-the-docs {
-  color: #888;
+.badge{
+  display: flex;
+  width: 76px;
+  height: 33px;
+  background-color: black;
+  margin-left: 380px;
+  margin-top: -40px;
+  border-radius: 7px;
+  padding: 5px;
 }
+
+.badge .uno{
+  margin-left: 5px;
+}
+
+.badge .dos{
+  margin-left: 15px;
+}
+
+.nameprofile{
+  display: flex;
+  font-size: 23px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.nameprofile h2{
+  font-size: 23px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.nameprofile p{
+  font-size: 23px;
+  font-weight: 700;
+  color: #B9BBBE; 
+}
+
+
+
+
+
+
+
